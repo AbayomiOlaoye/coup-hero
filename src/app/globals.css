@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #111827;
+  --brand-blue: #007AFF;
+  --brand-charcoal: #111827;
+  --brand-grey: #4B5563;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-brand-blue: var(--brand-blue);
+  --color-brand-charcoal: var(--brand-charcoal);
+  --color-brand-grey: var(--brand-grey);
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom, #f0f7ff 0%, #ffffff 100%);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  min-height: 100vh;
+}
