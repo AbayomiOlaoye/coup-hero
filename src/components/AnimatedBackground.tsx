@@ -37,13 +37,13 @@ export default function AnimatedBackground() {
         initial={{ y: "100vh" }}
         animate={{ y: "24vh" }}
         transition={{ duration: 1.8, ease: [0.16, 1, 0.3, 1], delay: 0.15 }}
-        className="absolute top-0 left-[8%] right-[15%]"
+        className="absolute top-2 left-[5%] right-[15%]"
       >
         <Image src="/background/birdie.svg" alt="bird" width={60} height={36} className="absolute top-[23%] left-[16%] w-12 h-6" />
       </motion.div>
       <Image src="/background/birdie.svg" alt="bird" width={60} height={36} className="absolute top-[31%] left-[26%] w-12 h-6" />
       <motion.div
-        initial={{ y: "100vh" }}
+        initial={{ y: "110vh" }}
         animate={{ y: "34vh" }}
         transition={{ duration: 1.8, ease: [0.16, 1, 0.3, 1], delay: 0.15 }}
         className="absolute right-[5%] -top-8 -left-[65%]"
@@ -59,7 +59,7 @@ export default function AnimatedBackground() {
         transition={{ duration: 10, ease: [0.45, 0, 0.55, 1], delay: 2 }}
         className="absolute top-[50%] left-[40%]"
       >
-        <Image src="/background/mid-bottom-right.svg" alt="bird" width={100} height={60} className="scale-x-[-1]" />
+        <Image src="/background/mid-bottom-right.svg" alt="bird" width={100} height={60} className="" />
       </motion.div>
       <motion.div
         initial={{ x: "60vw", y: "60vh" }}
@@ -77,14 +77,12 @@ export default function AnimatedBackground() {
         transition={{ duration: 1.8, ease: [0.16, 1, 0.3, 1] }}
         className="absolute inset-0 flex flex-col justify-end"
       >
-        <div className="relative w-full h-[60vh] flex items-end justify-center overflow-visible">
-          <Cloud className="absolute left-[-10%] bottom-[-10%] w-[50vw] h-[50vw] opacity-40" />
-          <Cloud className="absolute left-[15%] bottom-[-5%] w-[45vw] h-[45vw] opacity-60" />
-          <Cloud className="absolute right-[15%] bottom-[-5%] w-[45vw] h-[45vw] opacity-60" />
-          <Cloud className="absolute right-[-10%] bottom-[-10%] w-[50vw] h-[50vw] opacity-40" />
-
+        <div className="relative w-full h-[50vh] opacity-20 flex items-end justify-center overflow-visible">
+          <Image src="/background/mask.svg" alt="bird" width={80} height={48} className="absolute left-0 bottom-[-30%] w-[100vw] h-[30vw] opacity-40 z-80" />
+          <Image src="/background/upper-base.svg" alt="bird" width={80} height={48} className="absolute left-0 bottom-[-40%] w-[100vw] h-[35vw] opacity-30 z-50" />
+          <Image src="/background/light-bg.svg" alt="bird" width={80} height={48} className="absolute right-0 bottom-[-30%] w-[100vw] h-[25vw] opacity-20" />
           {/* Main central cloud */}
-          <Cloud className="absolute left-1/2 -translate-x-1/2 bottom-[-15%] w-[60vw] h-[60vw] opacity-50" />
+          <Image src="/background/major-base.svg" alt="bird" width={80} height={48} className="absolute left-1/2 -translate-x-1/2 bottom-[-35%] w-[100vw] h-[35vw] opacity-30" />
         </div>
       </motion.div>
 
