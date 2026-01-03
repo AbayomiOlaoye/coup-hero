@@ -16,7 +16,7 @@ export default function Home() {
 
       <AnimatePresence mode="wait">
         {!showContact ? (
-          <motion.div
+          <motion.article
             key="hero"
             initial={{ x: 0 }}
             animate={{ x: 0 }}
@@ -26,9 +26,9 @@ export default function Home() {
           >
             <AnimatedBackground />
             <Hero />
-          </motion.div>
+          </motion.article>
         ) : (
-          <motion.div
+          <motion.article
             key="contact"
             initial={{ x: "100%" }}
             animate={{ x: 0 }}
@@ -37,7 +37,7 @@ export default function Home() {
             className="relative w-full"
           >
             <ContactSalesView onBack={() => setShowContact(false)} />
-          </motion.div>
+          </motion.article>
         )}
       </AnimatePresence>
     </main>

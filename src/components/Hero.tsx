@@ -6,13 +6,13 @@ export default function Hero() {
   return (
     <section className="relative min-height-[100vh] flex flex-col items-center justify-center pt-32 lg:pt-48 pb-4 lg:pb-120 px-4 text-center overflow-hidden">
       <article className="animate-in fade-in slide-in-from-top-4 duration-1000 flex items-center gap-2 bg-blue-50 border border-blue-100 px-4 py-1.5 rounded-full mb-8">
-        <div className="w-8 h-4 flex p-1 items-center justify-between bg-brand-blue rounded-full">
+        <article className="w-8 h-4 flex p-1 items-center justify-between bg-brand-blue rounded-full">
           {
             [1,2,3].map((item) => (
               <span key={item} className="w-1 h-1 rounded-full bg-white" />
             ))
           }
-        </div>
+        </article>
         <span className="text-sm lg:text-base font-semibold text-brand-blue">#1 iMessage Automation Tool</span>
       </article>
 
