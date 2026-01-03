@@ -123,8 +123,6 @@ This is a high-fidelity landing page for **Coup.**, an iMessage automation tool 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
 
@@ -165,7 +163,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
 
 ## 👥 Author <a name="authors"></a>
 
@@ -176,8 +173,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - LinkedIn: [Oluwatoyin Olaoye](https://linkedin.com/in/oluwatoyinolaoye)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
