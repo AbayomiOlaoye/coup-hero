@@ -1,18 +1,3 @@
-# Coup. - iMessage Automation Landing Page
-
-
-## 🚀 Tech Stack
-
-
-## 🎨 Design Highlights & Implementation Notes
-
-
-## 📝 Assumptions
-
-- The landing page is the primary entry point, focusing on conversion through the "Get Started" and "Contact Sales" actions.
-- Background assets are optimized for various viewport sizes but prioritized for larger screens where the "immersive" effect is most effective.
-- The project follows the repository requirements for a public submission.
-
 <a name="readme-top"></a>
 
 <div align="center">
@@ -29,6 +14,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [Assumptions](#assumptions)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -114,6 +100,14 @@ This is a high-fidelity landing page for **Coup.**, an iMessage automation tool 
 
 #### Responsive Design
 - **Mobile Optimization**: Certain intensive background animations and decorative elements are hidden on mobile (`hidden lg:block`) to ensure performance and clarity on smaller screens.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 Assumptions
+
+- The landing page is the primary entry point, focusing on conversion through the "Get Started" and "Contact Sales" actions.
+- Background assets are optimized for various viewport sizes but prioritized for larger screens where the "immersive" effect is most effective.
+- The project follows the repository requirements for a public submission.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
