@@ -5,7 +5,47 @@
   --foreground: #111827;
   --brand-blue: #007AFF;
   --brand-charcoal: #111827;
-  --brand-grey: #4B5563;
+  --brand-grey: #8C97A8;
+}
+
+@font-face {
+  font-family: 'GeneralSans-Regular';
+  src: url('/fonts/GeneralSans-Regular.woff2') format('woff2'),
+       url('/fonts/GeneralSans-Regular.woff') format('woff'),
+       url('/fonts/GeneralSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GeneralSans-Medium';
+  src: url('/fonts/GeneralSans-Medium.woff2') format('woff2'),
+       url('/fonts/GeneralSans-Medium.woff') format('woff'),
+       url('/fonts/GeneralSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GeneralSans-Semibold';
+  src: url('/fonts/GeneralSans-Semibold.woff2') format('woff2'),
+       url('/fonts/GeneralSans-Semibold.woff') format('woff'),
+       url('/fonts/GeneralSans-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GeneralSans-Bold';
+  src: url('/fonts/GeneralSans-Bold.woff2') format('woff2'),
+       url('/fonts/GeneralSans-Bold.woff') format('woff'),
+       url('/fonts/GeneralSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
 }
 
 @theme inline {
@@ -14,7 +54,7 @@
   --color-brand-blue: var(--brand-blue);
   --color-brand-charcoal: var(--brand-charcoal);
   --color-brand-grey: var(--brand-grey);
-  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-sans: "GeneralSans-Regular", ui-sans-serif, system-ui, -apple-system, sans-serif;
 }
 
 body {
@@ -22,4 +62,13 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans);
   min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'GeneralSans-Bold', var(--font-sans);
 }
